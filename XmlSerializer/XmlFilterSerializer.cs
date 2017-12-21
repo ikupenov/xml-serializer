@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace XmlSerializer
 {
-    public class XmlFilterSerializer
+    public class XmlFilterSerializer : IXmlFilterSerializer
     {
         public Predicate<object> Filter { get; set; }
 
